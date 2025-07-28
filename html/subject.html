@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ตารางรายวิชา</title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <h1>ตารางรายวิชา เทอม 1/2568</h1>
+        <h3>6806022510637 คฤษฐ์ เสือเดช INET RA</h3> 
+    <div class="card">
+        <div class="tab-container">
+            <button class="tab-btn active" onclick="showTab('subject')">รายวิชาที่ลงทะเบียนทั้งหมด</button>
+            <button class="tab-btn" onclick="showTab('history')">ประวัติการทำรายการลงทะเบียน</button>
+        </div>
+        <div id="subject" class="tab-content subject-table subject-table-main active">
+            <table class="subject-table">
+                <thead>
+                    <tr>
+                        <th>รหัสวิชา</th>
+                        <th>ตอนเรียน</th>
+                        <th>ชื่อวิชา</th>
+                        <th>หน่วยกิต</th>
+                        <th>สถานะชำระเงินตามรายวิชา</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>040203123</td>
+                        <td>1</td>
+                        <td>DISCRETE MATH & APPLICATION</td>
+                        <td>3(3-0-6)</td>
+                        <td>ไม่มียอดชำระ</td>
+                    </tr>
+                    <tr>
+                        <td>060233101</td>
+                        <td>2</td>
+                        <td>INTRO TO INFO & NETWORK ENG</td>
+                        <td>3(2-2-5)</td>
+                        <td>ไม่มียอดชำระ</td>
+                    </tr>
+                    <tr>
+                        <td>060233108</td>
+                        <td>1</td>
+                        <td>DATA COMMU & COMP NTW</td>
+                        <td>3(3-0-6)</td>
+                        <td>ไม่มียอดชำระ</td>
+                    </tr>
+                    <tr>
+                        <td>060233115</td>
+                        <td>2</td>
+                        <td>COMPUTER PROGRAMMING</td>
+                        <td>3(2-2-5)</td>
+                        <td>ไม่มียอดชำระ</td>
+                    </tr>
+                    <tr>
+                        <td>080103063</td>
+                        <td>1</td>
+                        <td>PRACTICAL ENGLISH</td>
+                        <td>3(3-0-6)</td>
+                        <td>ไม่มียอดชำระ</td>
+                    </tr>
+                    <tr>
+                        <td>080303103</td>
+                        <td>4</td>
+                        <td>PSYCHOLOGY FOR HAPPY LIFE</td>
+                        <td>3(3-0-6)</td>
+                        <td>ไม่มียอดชำระ</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">รวม 6 รายวิชา</td>
+                        <td>18 หน่วยกิต</td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+                </table>
+            </div>
+            <div id="history" class="tab-content subject-table subject-table-history ">
+            <table class="subject-table">
+                <thead>
+                    <tr>
+                        <th>ลำดับ</th>
+                        <th>รหัสวิชา</th>
+                        <th>ตอนเรียน</th>
+                        <th>รายการ</th>
+                        <th>ชื่อวิชา</th>
+                        <th>หน่วยกิต</th>
+                        <th>หน่วยกิตลงทะเบียน</th>
+                        <th>วันที่พิมพ์ใบ PAYIN</th>
+                        <th>สถานะ</th>
+                        <th>สถานะชำระเงินตามรายวิชา</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td colspan="9" class="bold">13 มิ.ย. 2568 10:24</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>040203123</td>
+                        <td>1</td>
+                        <td class="bold">ลงทะเบียน</td>
+                        <td>DISCRETE MATH & APPLICATION</td>
+                        <td>3(3-0-6)</td>
+                        <td>3</td>
+                        <td>-</td>
+                        <td class="bold-green">ปกติ</td>
+                        <td>ไม่มียอดชำระ</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>060233101</td>
+                        <td>2</td>
+                        <td class="bold">ลงทะเบียน</td>
+                        <td>INTRO TO INFO & NETWORK ENG</td>
+                        <td>3(2-2-5)</td>
+                        <td>3</td>
+                        <td>-</td>
+                        <td class="bold-green">ปกติ</td>
+                        <td>ไม่มียอดชำระ</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>060233108</td>
+                        <td>1</td>
+                        <td class="bold">ลงทะเบียน</td>
+                        <td>DATA COMMU & COMP NTW</td>
+                        <td>3(3-0-6)</td>
+                        <td>3</td>
+                        <td>-</td>
+                        <td class="bold-green">ปกติ</td>
+                        <td>ไม่มียอดชำระ</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>060233115</td>
+                        <td>2</td>
+                        <td class="bold">ลงทะเบียน</td>
+                        <td>COMPUTER PROGRAMMING</td>
+                        <td>3(2-2-5)</td>
+                        <td>3</td>
+                        <td>-</td>
+                        <td class="bold-green">ปกติ</td>
+                        <td>ไม่มียอดชำระ</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>080103063</td>
+                        <td>1</td>
+                        <td class="bold">ลงทะเบียน</td>
+                        <td>PRACTICAL ENGLISH</td>
+                        <td>3(3-0-6)</td>
+                        <td>3</td>
+                        <td>-</td>
+                        <td class="bold-green">ปกติ</td>
+                        <td>ไม่มียอดชำระ</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>080303103</td>
+                        <td>4</td>
+                        <td class="bold">ลงทะเบียน</td>
+                        <td>PSYCHOLOGY FOR HAPPY LIFE</td>
+                        <td>3(3-0-6)</td>
+                        <td>3</td>
+                        <td>-</td>
+                        <td class="bold-green">ปกติ</td>
+                        <td>ไม่มียอดชำระ</td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+        </div>
+        <script>
+            function showTab(tab) {
+                document.getElementById('subject').classList.toggle('active', tab === 'subject');
+                document.getElementById('history').classList.toggle('active', tab === 'history');
+                var btns = document.querySelectorAll('.tab-btn');
+                btns.forEach(function(btn, idx) {
+                    btn.classList.toggle('active', (tab === 'subject' && idx === 0) || (tab === 'history' && idx === 1));
+                });
+            }
+        </script>
+    </body>
+</html>
