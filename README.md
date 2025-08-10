@@ -1,3 +1,3 @@
-# HW3 : Link Webpage with HTML
-# HW4 : สร้างเว็บไซต์ด้วย HTML และ CSS (External) [ให้ทำต่อจาก github จากการบ้าน HW3]
-6806022510637_Karit
+# HTML and CSS of Intro to INE - 1/2568 SEC 2
+
+# 6806022510637_Karit
